@@ -1,27 +1,34 @@
-# Axolotl Limb Regeneration Simulations and Image Analysis
+# axolotl_limb_regeneration_s: Growth Simulations and Image Analysis of Axolotl Limb Regeneration
 
-This repository contains the code and data accompanying the study on axolotl limb regeneration. It includes simulations of growth dynamics using a minimal reaction-diffusion model and analyses of 3D HCR data for morphogens regulating limb regeneration.
+## Overview
+This repository contains tools for:
+- **Growth Simulations**: Numerical simulations using the Euler scheme to model growth dynamics.
+- **Image Analysis**: Tools for analyzing axolotl limb regeneration 3d images.
 
----
+### Repository Structure
+- `growth_simulations`: Growth Simulations 
+    - `growth_simulations/euler_scheme_1d_with_growth/`: Python package for growth simulations.
+- `image_analysis`: Image Analysis
+    - `axolotl_limb_regeneration_s/image_analysis/image_analysis`: Python package for image analysis.
+    - `axolotl_limb_regeneration_s/example/`: Example of the image analysis pipeline for 3 images available here.
+    - `axolotl_limb_regeneration_s/all_image_analysis_without_data/`: The copy of the complete image analysis for all the data from **paper** without any images themselves, raw data is available **link**.
 
-## Folder Structure
+## Installation Instructions
 
-### `growth_simulations`
-This folder contains:
-- **Simulations of Growth Dynamics**: Using a minimal reaction-diffusion model to explore the growth dynamics during limb regeneration.
+### Clone the Repository
+To download this repository, run:
+```bash
+git clone https://github.com/NataliaLyubaykina/axolotl_limb_regeneration_s
+cd axolotl_limb_regeneration_s
+```
 
-### `image_analysis`
-This folder contains:
-- **Analysis of 3D HCR Data**: Example analyses for 3d images of morphogens.
+### Create the Conda Environment
+The repository includes an `environment.yml` file that defines the dependencies.
 
----
-
-## Contact
-For questions or feedback, feel free to reach out:
-- **Author**: Natalia Lyubaykina
-- **Email**: natalinal96@gmail.com
-
----
+To create the environment, run:
+```bash
+conda env create -f environment.yml
+conda activate axolotl_limb_regeneration_s
+```
 
 Enjoy exploring the fascinating dynamics of limb regeneration!
-
