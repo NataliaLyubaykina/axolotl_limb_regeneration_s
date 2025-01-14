@@ -1,0 +1,9 @@
+setup.py
+image_analysis/__init__.py
+image_analysis/hiddenprints.py
+image_analysis/read_files.py
+image_analysis.egg-info/PKG-INFO
+image_analysis.egg-info/SOURCES.txt
+image_analysis.egg-info/dependency_links.txt
+image_analysis.egg-info/requires.txt
+image_analysis.egg-info/top_level.txt

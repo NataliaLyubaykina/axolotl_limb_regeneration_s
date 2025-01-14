@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: image_analysis
+Version: 0.1.0
+Summary: Image analysis of the Axolotl limb regeneration data
+Author: Natalia
+Author-email: natalia.lyubaykina@gmail.com
+Requires-Dist: pyclesperanto_prototype>=0.24.1
+Requires-Dist: scipy>=1.9.1
+Requires-Dist: scikit-image>=0.19.3
+Requires-Dist: aicsimageio>=4.10.0
+Requires-Dist: apoc>=0.12.0
+Requires-Dist: napari>=0.4.17
