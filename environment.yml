@@ -1,0 +1,23 @@
+name: axolotl
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - ipywidgets
+  - scipy
+  - napari
+  - tifffile
+  - tqdm
+  - jupyterlab
+  - openpyxl
+  - cupy
+  - pip
+  - pip:
+      - apoc
+      - pyclesperanto_prototype
+      - -e ./growth_simulations/euler_scheme_1d_with_growth
+      - -e ./image_analysis/image_analysis

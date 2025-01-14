@@ -28,7 +28,7 @@ The repository includes an `environment.yml` file that defines the dependencies.
 To create the environment, run:
 ```bash
 conda env create -f environment.yml
-conda activate axolotl_limb_regeneration_s
+conda activate axolotl
 ```
 
 Enjoy exploring the fascinating dynamics of limb regeneration!
