@@ -21,7 +21,6 @@ To download this repository, run:
 git clone https://github.com/NataliaLyubaykina/axolotl_limb_regeneration_s
 cd axolotl_limb_regeneration_s
 ```
-Please note that this repository requires CuPy. By default, CuPy supports Nvidia GPUs via CUDA. If you are using a different platform (e.g., AMD or Intel), you may need to install a compatible CuPy backend manually.
 
 ### Create the Conda Environment
 The repository includes an `environment.yml` file that defines the dependencies.
@@ -31,5 +30,7 @@ To create the environment, run:
 conda env create -f environment.yml
 conda activate axolotl
 ```
+
+Please note that this repository requires CuPy. By default, CuPy supports Nvidia GPUs via CUDA. If you are using a different platform (e.g., AMD or Intel), you may need to install a compatible CuPy backend manually.
 
 Enjoy exploring the fascinating dynamics of limb regeneration!
