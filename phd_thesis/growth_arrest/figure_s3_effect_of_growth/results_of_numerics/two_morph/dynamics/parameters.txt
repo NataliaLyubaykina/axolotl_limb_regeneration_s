@@ -13,8 +13,8 @@ ndx: 500
 dx: 0.0036
 
 Time Parameters:
-tmax: 5
+tmax: 10
 dt: 5e-06
-t (array length): 1000001
-ndt: 1000001
+t (array length): 2000001
+ndt: 2000001
 ndt_to_save: 1000
