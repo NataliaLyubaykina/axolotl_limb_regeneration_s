@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 
 # Set default font settings
-plt.rcParams['font.family'] = 'serif'
+#plt.rcParams['font.family'] = 'serif'
 plt.rcParams['font.size'] = 12
-plt.rcParams['font.serif'] = ['Nimbus Roman']  # Use Times New Roman on Windows, Nimbus Roman on Linux
+plt.rcParams['font.serif'] = ['Times New Roman']  # Use Times New Roman on Windows, Nimbus Roman on Linux
 plt.rcParams['figure.dpi'] = 300
 plt.rcParams['lines.linewidth'] = 0.5
 
