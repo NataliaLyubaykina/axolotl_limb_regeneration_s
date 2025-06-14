@@ -1,6 +1,7 @@
 # axolotl_limb_regeneration_s: Growth Simulations and Image Analysis of Axolotl Limb Regeneration
 
 Supporting repositorium for PhD thesis 'Mathematical Modelling of Axolotl Limb Regeneration'.
+
 Paper preprint: https://doi.org/10.1101/2025.02.14.638295
 
 ## Overview
